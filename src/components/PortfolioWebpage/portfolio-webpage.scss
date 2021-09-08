@@ -1,0 +1,46 @@
+//--- Moodboard Colors ---//
+$black: #000000;
+$grey: #A6AEAD;
+$leather: #B55F46;
+$pumpkin: #C16736;
+$sage: #00836C;
+$white: #FFFFFF;
+
+//--- Webpage Styles ---//
+.landing-container {
+   background-color: $white;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.about-container {
+   background-color: $leather;
+   height: 100vh;
+}
+
+.experience-container {
+   background-color: $white;
+   height: 100vh;
+}
+
+.projects-container {
+   background-color: $pumpkin;
+   height: 100vh;
+}
+
+.contact-container {
+   background-color: $white;
+   height: 100vh;
+}
+
+//--- Shared Text Styles ---//
+p {
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.05em;
+
+   color: black;
+}
