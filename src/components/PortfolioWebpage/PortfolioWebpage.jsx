@@ -1,15 +1,17 @@
 import React from 'react';
 import './portfolio-webpage.scss';
-import Landing from '../PortfolioWebpage/Landing/Landing';
-import About from '../PortfolioWebpage/About/About';
-import Experience from '../PortfolioWebpage/Experience/Experience';
+import About from './About/About';
+import Contact from './Contact/Contact';
+import Experience from './Experience/Experience';
+import Landing from './Landing/Landing';
+import Navbar from './Navbar/Navbar';
 import Projects from '../PortfolioWebpage/Projects/Projects';
-import Contact from '../PortfolioWebpage/Contact/Contact';
 
 export default function PortfolioWebpage() {
 
     return (
       <div className="portfolio-webpage">
+         <Navbar />
          <section className="landing-container">
             <Landing />
          </section>
